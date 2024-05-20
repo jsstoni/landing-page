@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing - Page</title>
+  </head>
+  <body>
+    <main class="h-screen relative bg-[url(/bg.jpg)] bg-cover flex flex-col justify-center">
+      <div class="absolute z-10 opacity-95 size-full inset-0 bg-gradient-to-tl to-blue-950 from-fuchsia-900 to-60% from-40%"></div>
+      <div class="relative container mx-auto flex items-center gap-4 z-20 h-full">
+        <div class="w-[70%] sm:text-5xl md:text-7xl xl:text-9xl">
+          <h1 class="text-yellow-400 drop-shadow-lg font-bold uppercase">Wordpress</h1>
+          <h2 class="text-white drop-shadow-lg font-bold uppercase">Landing</h2>
+          <h3 class="text-violet-950 drop-shadow-lg font-bold uppercase bg-yellow-400 inline-block px-6 rounded-md">Page</h3>
+          <div class="flex gap-5 mt-10">
+            <img src="/wordpress.svg" alt="wordpress" width="90">
+            <img src="/elementor.svg" alt="elementor" width="90">
+          </div>
+        </div>
+        <div class="bg-yellow-400 shadow-lg flex-1 flex flex-col items-start h-full px-8 py-20">
+          <p class="mb-5 text-xl drop-shadow-lg">Crearé un diseño responsivo de página de inicio de WordPress</p>
+          <label for="">Tú nombre</label>
+          <input type="text">
+          <label for="">Correo electrónico</label>
+          <input type="text">
+          <label for="">Descripción</label>
+          <textarea name="" rows="4" id=""></textarea>
+          <button class="bg-gradient-to-tr from-violet-800 to-orange-700 from-10% p-1.5 px-8 text-white rounded-3xl uppercase text-2xl mx-auto mt-5">¡Lo quiero!</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
